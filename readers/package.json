@@ -1,0 +1,24 @@
+{
+  "name": "llamaindex-loader-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx ./src/simple-directory-reader.ts",
+    "start:csv": "node --import tsx ./src/csv.ts",
+    "start:docx": "node --import tsx ./src/docx.ts",
+    "start:html": "node --import tsx ./src/html.ts",
+    "start:markdown": "node --import tsx ./src/markdown.ts",
+    "start:pdf": "node --import tsx ./src/pdf.ts",
+    "start:llamaparse": "node --import tsx ./src/llamaparse.ts",
+    "start:notion": "node --import tsx ./src/notion.ts",
+    "start:llamaparse2": "node --import tsx ./src/llamaparse_2.ts"
+  },
+  "dependencies": {
+    "llamaindex": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}
